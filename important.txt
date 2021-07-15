@@ -1,0 +1,11 @@
+cd venv/Scripts
+
+python manage.py makemigrations
+
+python manage.py runserver
+
+pip install django_filters
+
+python -m pip install Pillow
+
+Affecter un groupe à namo
